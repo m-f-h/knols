@@ -22,7 +22,6 @@ Part 1: related to Applied Computer Science. In particular, web site design, man
   - We found ssl.py in C:\Program Files\MySQL\MySQL Shell 8.0\lib\Python3.10\Lib\site-packages\OpenSSL
   - Could that be used to create certificates?
   
-  
 * How to create & store SSL certificates
   - We found the following ressources:
   - [IT: How To Create a Self Signed Security (SSL) Certificate and Deploy it to Client Machines (How-To Geek.com)](https://www.howtogeek.com/107415/it-how-to-create-a-self-signed-security-ssl-certificate-and-deploy-it-to-client-machines/)
@@ -36,6 +35,11 @@ Part 1: related to Applied Computer Science. In particular, web site design, man
     then better:
   - https://help.zerossl.com/hc/en-us/articles/360060119373-Creating-an-SSL-Certificate
   
-
+### Drupal
+* main link: [my Drupal repo](/../../../drupal)
+* Find out the frequency of releases: we installed 9.4.1 on Beinning of July, but 9.4.3 was aloready released, by the end of July 9.4.4 was released...!! 
+* ...
 ## Solved problems
-
+### Drupal
+* main link: [my Drupal repo](/../../../drupal)
+* [differential core update](/../../../drupal/tree/main/core_update)
