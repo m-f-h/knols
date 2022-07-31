@@ -43,3 +43,35 @@ Part 1: related to Applied Computer Science. In particular, web site design, man
 ### Drupal
 * main link: [my Drupal repo](/../../../drupal)
 * [differential core update](/../../../drupal/tree/main/core_update)
+
+### WSL vs CygWin and Ubuntu vs Debian
+31.7.22 : We've just learned about [WSL - the Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/about)
+
+is it better than Cygwin? read here:
+- [Compare the difference between Cygwin, MinGW and WSL](https://ericzhng.github.io/eric-blogs/2019/07/25/comparison-cygwin-mingw-wsl/)
+(good description of Cygwin vs MinGW but almost nothing on WSL ()
+- [WSL vs Cygwin. Should I migrate?](https://www.reddit.com/r/windows/comments/a8innb/wsl_vs_cygwin_should_i_migrate/)
+(among the replies: 110% WSL. once set up correctly, it integrates absolutely perfectly with the rest of your toolkit) 
+- [Cygwin vs WSL2 - which is (currently) faster?](https://www.reddit.com/r/sysadmin/comments/fckypi/cygwin_vs_wsl2_which_is_currently_faster/)
+- [Cygwin vs Windows Subsystem for Linux](https://www.slant.co/versus/11867/24657/~cygwin_vs_windows-subsystem-for-linux)
+- [MS : install](https://docs.microsoft.com/en-us/windows/wsl/install)
+==> we chose to give WLS a try
+
+Q: which distro to install?
+  - [Debian vs Ubuntu: What’s the Difference? Which One Should You Use?](https://itsfoss.com/debian-vs-ubuntu/)
+  Ubintu is based on debian ; intermediate between Deb stable (aka stale) and testing
+  - [Debian vs Ubuntu: Which distro is best for you?](https://www.techrepublic.com/article/debian-vs-ubuntu/)
+  - [Debian vs. Ubuntu Linux: Which Distro Should You Choose?](https://www.howtogeek.com/749045/debian-vs-ubuntu/)
+    * Debian Has Lower System Requirements.
+  
+    A Debian 11 desktop install requires at least a 1GHz processor, 1GB RAM, and 10GB storage. Ubuntu Desktop more than doubles those requirements with a 2GHz dual-core processor, 4GB of RAM, and 25GB of disk space.
+   
+    That said, when we tested ... didn’t differ significantly, using about 1GB of RAM at idle. 
+
+    * Ubuntu Makes Proprietary Software Easier to Get
+    * Debian Supports Older Hardware
+    * Ubuntu Is Corporate-Backed
+    Ubuntu is maintained by an organization called Canonical. Debian, in contrast, is developed completely by a community of volunteers. 
+
+  It looks as if we'd stick to the default = Ubuntu for our WSL install
+  
